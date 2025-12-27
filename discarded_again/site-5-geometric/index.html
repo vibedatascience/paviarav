@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pavithra Aravindan - UX Designer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav-container">
+      <a href="index.html" class="logo">Pavithra Aravindan</a>
+      <button class="mobile-menu-btn" aria-label="Toggle menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <h1>Pavithra Aravindan</h1>
+      <p class="bio">I am an AI/UX designer based in New York City. I manage a team of 4 junior to senior UX Designers at Amazon. I design AI-powered complex systems and generative AI tools that help millions of Amazon sellers, brands and customer service work smarter.</p>
+    </section>
+
+    <section class="projects">
+      <h2>Selected Work</h2>
+      <div class="project-grid">
+        <a href="project-1.html" class="project-card">
+          <div class="placeholder-image" style="aspect-ratio: 16/9;">Project Screenshot</div>
+          <h3>Transforming Amazon Operations Efficiency with AI, Data and Guided Workspace</h3>
+          <p>Reimagined support issue resolution tool</p>
+        </a>
+        <a href="project-2.html" class="project-card">
+          <div class="placeholder-image" style="aspect-ratio: 16/9;">Project Screenshot</div>
+          <h3>AI-powered Amazon Seller Support</h3>
+          <p>Unified Support experience and connecting with Customer Support through Selling Assistant</p>
+        </a>
+      </div>
+    </section>
+
+    <section class="amazon-work">
+      <h2>UX/AI at Amazon</h2>
+      <ul>
+        <li>Building complex AI service tools at Amazon Support</li>
+        <li>Customer Experience Outcomes (CXO) and strategy for Amazon Support</li>
+        <li>Global research in India, Costa Rica and US</li>
+      </ul>
+    </section>
+
+    <section class="media">
+      <h2>Media</h2>
+      <ul>
+        <li>Published a product design paper to HCI, ACM, Google Scholar, 2016</li>
+        <li>Speaker at O'Reilly Design Conference, 2016</li>
+        <li>Buzzfeed interview, 2021</li>
+        <li>Voyage Austin interview, 2022</li>
+        <li>Migrationology podcast, 2022</li>
+        <li>Keynote Speaker at UX+BA Istanbul Conference, 2024</li>
+        <li>Speaker at Amazon Design Conference, 2024</li>
+        <li>Published 50+ articles for Design+Sketch, UX collective, UX planet and more</li>
+      </ul>
+    </section>
+
+    <section class="awards">
+      <h2>Awards</h2>
+      <ul>
+        <li>Amazon Day One Award, 2024</li>
+        <li>Da Vinci Award, Amazon Design Summit, 2024</li>
+        <li>Unconventional Genius Award, Amazon Design Summit, 2024</li>
+        <li>Exemplar Award, Amazon Design Summit, 2024</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-content">
+      <a href="mailto:pavithra.aravindan@gmail.com" class="footer-email">pavithra.aravindan@gmail.com</a>
+      <nav class="footer-nav">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </footer>
+
+  <script>
+    document.querySelector('.mobile-menu-btn').addEventListener('click', function() {
+      this.classList.toggle('open');
+      document.querySelector('.nav-links').classList.toggle('open');
+    });
+  </script>
+</body>
+</html>

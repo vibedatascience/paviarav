@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About - Pavithra Aravindan</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav-container">
+      <a href="index.html" class="logo">Pavithra Aravindan</a>
+      <button class="mobile-menu-btn" aria-label="Toggle menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="about-page">
+    <section class="about-intro">
+      <h1>About Me</h1>
+      <p>My passion for art started when I was 5 years old. I have been on the drawing board ever since. Coming from a family of Doctors and Engineers in India, I did not have enough support to pursue my hobby as a career. But, during my undergrad, I worked with many student organizations to create poster designs and websites. They made good pieces for my portfolio so I could apply for higher studies in design. And thus, my journey in design began!</p>
+    </section>
+
+    <section class="about-hobby">
+      <h2>What I do when I'm not working</h2>
+      <p>I'm cooking and creating videos for my food blog, pavsandpepper.</p>
+      <ul>
+        <li>I have made dishes from more than 60 different countries</li>
+        <li>I share stories about my culture and food</li>
+      </ul>
+      <div class="placeholder-image" style="aspect-ratio: 4/3;">Fiji ceviche</div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-content">
+      <a href="mailto:pavithra.aravindan@gmail.com" class="footer-email">pavithra.aravindan@gmail.com</a>
+      <nav class="footer-nav">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </footer>
+
+  <script>
+    document.querySelector('.mobile-menu-btn').addEventListener('click', function() {
+      this.classList.toggle('open');
+      document.querySelector('.nav-links').classList.toggle('open');
+    });
+  </script>
+</body>
+</html>
