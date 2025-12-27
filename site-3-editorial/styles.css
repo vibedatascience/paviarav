@@ -3,7 +3,7 @@
   --color-text: #0a0a0a;
   --color-text-secondary: #555555;
   --color-border: #0a0a0a;
-  --color-accent: #e63946;
+  --color-accent: #2563eb;
   --font-heading: 'DM Serif Display', Georgia, serif;
   --font-body: 'DM Sans', system-ui, sans-serif;
   --max-width: 1400px;
@@ -84,6 +84,20 @@ ul, ol {
   color: var(--color-accent);
 }
 
+.nav-linkedin {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav-linkedin svg {
+  transition: transform 0.2s ease;
+}
+
+.nav-linkedin:hover svg {
+  transform: scale(1.1);
+}
+
 .mobile-menu-btn {
   display: none;
   flex-direction: column;
@@ -129,6 +143,30 @@ main {
   line-height: 1.7;
   color: var(--color-text-secondary);
   align-self: end;
+}
+
+.linkedin-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  border: 2px solid var(--color-text);
+  border-radius: 50%;
+  color: var(--color-text);
+  transition: all 0.2s ease;
+  margin-top: var(--spacing-md);
+}
+
+.linkedin-link:hover {
+  background: var(--color-text);
+  color: var(--color-bg);
+  transform: translateY(-2px);
+}
+
+.linkedin-link svg {
+  width: 22px;
+  height: 22px;
 }
 
 .projects {
