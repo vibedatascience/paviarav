@@ -1043,6 +1043,10 @@ main {
 }
 
 @media (max-width: 768px) {
+  .site-header {
+    position: relative;
+  }
+
   .mobile-menu-btn {
     display: flex;
   }
@@ -1187,6 +1191,10 @@ main {
 
   .image-gallery {
     grid-template-columns: 1fr;
+  }
+
+  .toc-sidebar {
+    display: none;
   }
 }
 
